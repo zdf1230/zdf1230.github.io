@@ -5,7 +5,6 @@ author:      Zhao Dongfang
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
 url:         "http://zdf615328619.github.io/"
-favicon:	 http://zdf615328619.github.io/images/favicon.ico
 
 # Google analytics
 google_analytics:
