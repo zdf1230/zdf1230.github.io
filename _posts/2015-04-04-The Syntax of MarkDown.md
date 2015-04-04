@@ -8,8 +8,6 @@ date: 2015-04-04 11:00:06 -0700
 comments: true
 ---
 
-Markdown 语法说明 (简体中文版) 
-================
 
 *   [概述](#overview)
     *   [宗旨](#philosophy)
