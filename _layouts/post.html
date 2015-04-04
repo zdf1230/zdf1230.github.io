@@ -13,6 +13,16 @@ layout: default
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
+  
+  <address class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    By <span itemprop="name"><a href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.author }}" itemprop="url">{{ site.author }}</a></span>
+  </address>
+  <p>In 
+	{% for tag in page.categories %}
+	<a href="{{ site.url }}{{ site.baseurl }}/categories/index.html#{{ page.categories | cgi_encode }}" data-toggle="tooltip" rel="tag">{{ tag | capitalize }}</a>
+	{% endfor %}
+  </p>
+  
   <span class="post-meta small">{{ minutes }} minute read</span>
 </div>
 
