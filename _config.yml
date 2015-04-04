@@ -4,7 +4,8 @@ email:       615328619@qq.com
 author:      Zhao Dongfang
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "https://zdf615328619.github.io/"
+url:         "http://zdf615328619.github.io/"
+favicon:	 http://zdf615328619.github.io/favicon.ico
 
 # Google analytics
 google_analytics:
@@ -52,4 +53,4 @@ sass:
   compressed: true
 
 # lsi setting (let related_post has more quality)
-lsi: 		true
+lsi: 		false

@@ -761,3 +761,48 @@ a:hover {
 .transition-all {
   transition: all .2s ease;
 }
+
+/*
+    Tagbox
+*****************/
+.tag-box {
+    padding: 4px 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    *zoom: 1;
+}
+
+.tag-box:after,.tag-box:before {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.tag-box:after {
+    clear: both;
+}
+
+.tag-box.inline li {
+    float: left;
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.tag-box a {
+    padding: 4px 6px;
+    margin: 2px;
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tag-box a span {
+    font-size: 14px;
+    vertical-align: super;
+}
+.post-list a>span {
+    float: right;
+}
