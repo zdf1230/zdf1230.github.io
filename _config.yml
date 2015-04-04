@@ -50,3 +50,6 @@ permalink:    pretty
 paginate:     5
 sass:
   compressed: true
+
+# lsi setting (let related_post has more quality)
+lsi: 		true
