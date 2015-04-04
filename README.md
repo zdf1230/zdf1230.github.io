@@ -1,6 +1,6 @@
 # Zdf's Blog
 
-[click here to see detail.](http://http://zdf615328619.github.io/)
+[click here to see detail.](http://zdf615328619.github.io/)
 
 * [Archive](http://zdf615328619.github.io/archive/)
 
