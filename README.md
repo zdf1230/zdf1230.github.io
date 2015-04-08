@@ -7,3 +7,5 @@
 * [Categories](http://zdf615328619.github.io/categories/)
 
 * [Tags](http://zdf615328619.github.io/tags/)
+
+This Blog is constructed with duoshuo and swiftype.
