@@ -5,12 +5,15 @@
       <nav class="site-nav right">
         {% include navigation.html %}
       </nav>
-	  <div class="right">
+	 
+      <div class="clearfix"></div>
+	  
+	   <div class="right">
 		<form>
 			<input type="text" id="st-search-input" class="st-search-input" />
 		</form>
 	  </div>
-      <div class="clearfix"></div>
+	  
       {% if site.show_social_icons %}
         {% include social_links.html %}
       {% endif %}
