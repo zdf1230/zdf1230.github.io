@@ -2,10 +2,10 @@
   <a href="#top" title="Back to top"></a>
 </div>
 
-
-<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.js">
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script type="text/javascript">
+	$("#back-top").hide();
 	$(document).ready(function () {
-	  $("#back-top").hide();
 	  $(window).scroll(function () {
 		if ($(this).scrollTop() > 100) {
 		  $('#back-top').fadeIn();
