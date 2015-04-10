@@ -1,19 +1,23 @@
 ---
 layout: page
-title: About Pixyll
+title: About zdf
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+This Blog is built by zdf. He really want a name that feels cool. Welcome to make a suggestion.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I don't know whether I can maintain this blog well. And I even have no idea about what I would like to push on this blog. My only wish is to share my own idea to you.
 
-Thanks to the following:
+***
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+Here are some contact information about me.
+
+QQ : 615328619
+
+Email : 615328619@qq.com
+
+[My Baidu Blog](http://hi.baidu.com/zdf615328619)
+
+*You can contact with me whenever you want.*
+
+![rabit](/images/rabit.gif)
