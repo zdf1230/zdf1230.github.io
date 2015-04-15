@@ -12,7 +12,7 @@ google_analytics:
 # Optional features
 animated:           true
 show_related_posts: false
-show_post_footers:  true
+show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
