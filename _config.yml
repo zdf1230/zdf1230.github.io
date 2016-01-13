@@ -43,7 +43,12 @@ share_reddit: false
 share_stumbleupon: false
 
 # Build settings
-markdown:     redcarpet
+markdown:     kramdown
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  math_engine: mathjax
+  toc_levels: 1..6
+
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
