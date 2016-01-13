@@ -31,9 +31,13 @@ comments: true
 
 Example:
 
-Hypothesis : $$h_{\theta}(x)={\theta}_1 + {\theta}_2 \times x$$
+Hypothesis : 
 
-Cost Funciton : $$J(\theta_1,\theta_2) =  \frac{1}{2m}\sum_{i = 1}^{m} (h_\theta(x^{(i)})-y^{(i)})^2$$
+$$h_{\theta}(x)={\theta}_1 + {\theta}_2 \times x$$
+
+Cost Funciton : 
+
+$$J(\theta_1,\theta_2) =  \frac{1}{2m}\sum_{i = 1}^{m} (h_\theta(x^{(i)})-y^{(i)})^2$$
 
 
 #### 批量梯度下降算法 _batch gradient descent algorithm_
@@ -48,7 +52,7 @@ Cost Funciton : $$J(\theta_1,\theta_2) =  \frac{1}{2m}\sum_{i = 1}^{m} (h_\theta
 
     }
     
-    $$\alpha$$是学习率 _learning rate_
+    $\alpha$ 是学习率 _learning rate_
 
 * 局部最优
-    * $$\theta$$ 最终会收敛，偏导数为$$0$$
+    * $\theta$ 最终会收敛，偏导数为 $0$
