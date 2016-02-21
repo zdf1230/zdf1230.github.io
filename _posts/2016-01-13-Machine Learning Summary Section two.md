@@ -4,7 +4,7 @@ title: "Machine Learning Summary Section two"
 author: Zdf
 tag: [Machine Learning]
 category: Machine Learning
-date: 2016-02-21 16:34:10 -0700
+date: 2016-01-13 16:34:10 -0700
 comments: true
 ---
 
