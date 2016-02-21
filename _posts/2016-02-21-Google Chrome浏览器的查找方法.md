@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Google Chrome浏览器的查找方法"
+author: Zdf
+tag: [Chrome, 缓存]
+category: tricks
+date: 2016-02-21 11:31:10 -0700
+comments: true
+---
+
+* 在`C:\Users\Dongfang\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash
+`是`.tmp`文件，复制一下，改后缀(这里的缓存关掉视频播放页面后就会删除)
+* 按F12，或右键选择"审查元素"打开"开发者工具"，在Network里可以找到视频地址，用下载工具下载即可（可在此查看视频后缀名）
+* 用插件，我用的是`FVD Video Downloader`（用插件也可下载视频）
+
+注:`Dongfang` 为windows用户名
