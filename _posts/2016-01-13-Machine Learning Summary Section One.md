@@ -52,3 +52,9 @@ Cost Funciton : $$J(\theta_1,\theta_2)=\frac{1}{2m}\sum_{i = 1}^{m}(h_\theta(x^{
 
 * 局部最优
     * $\theta$ 最终会收敛，偏导数为 $0$
+	
+### 多变量线性回归 _Linear Regression with Multiple Variable_
+
+* $h_{\theta}(x)=\theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \theta_{n}x_{n}$
+* $x_{0} = 1$ , $h_{\theta}(x)=\theta_{0}x_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \theta_{n}x_{n}$
+* $h_{\theta}(x)=\theta^{T}X$
