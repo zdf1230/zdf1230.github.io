@@ -35,7 +35,7 @@ comments: true
 ### 正规方程 _Normal Equation_
 
 * 对于某些线性回归问题，我们可以使用正规方程来解决。复杂度为 $O(n^{3})$
-* 训练集特征向量X(其中$x_{0} = 1$), 训练集结果为向量y
+* 训练集特征向量$X$(其中$x_{0} = 1$), 训练集结果为向量y
 * 利用正规方程解出向量$$ \theta = (X^{T}X)^{-1}X^{T}y $$
 * $X^{T}X$ 是为了构成方阵，只有方程才有逆。$X\theta = y$
 
@@ -52,7 +52,9 @@ comments: true
 
 * 逻辑回归模型的假设 $h_{\theta}(x) = g(\theta_{T}X)$
 * Sigmod Function $ g(z) = \frac{1}{1 + e^{-z}} $
-* 逻辑回归的代价函数 $$J(\theta) = frac{1}{m} \sum_{i = 1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)}) $$
+* 逻辑回归的代价函数 $$J(\theta) = \frac{1}{m} \sum_{i = 1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)}) $$
 * 化简后 $$ Cost(h_\theta(x),y) = -y \times log(h_\theta(x)) - (1-y) \times log(1 - h_\theta(x))$$
 * fminunc
 * one-vs-all 取 $max(h_\theta(x))$ 为分类结果
+
+[Next Section](http://zdf615328619.github.io/machine%20learning/2016/03/23/Machine-Learning-Summary-Section-Three/)
