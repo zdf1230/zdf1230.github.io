@@ -57,4 +57,11 @@ comments: true
 * fminunc
 * one-vs-all 取 $max(h_\theta(x))$ 为分类结果
 
+### 正则化 _Regularization_
+* 过拟合 Overfitting 高方差
+* 过拟合解决方案
+	* 减少特征变量个数(Manully select which features to keep or use model select alogrithm)
+	* 正则化
+* 正则化在线性回归和逻辑回归中的应用 \lamda
+
 [Next Section](http://zdf615328619.github.io/machine%20learning/2016/03/23/Machine-Learning-Summary-Section-Three/)
