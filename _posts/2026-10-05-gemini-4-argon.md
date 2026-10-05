@@ -3,7 +3,7 @@ layout: post
 title: "Google Launches Gemini 4 Argon — Defenders First"
 tags: [AI, Google, Gemini]
 categories: ai
-date: 2026-10-05 12:00:00 -0700
+date: 2026-10-05 00:20:00 -0700
 ---
 
 On September 30, Google DeepMind announced **Gemini 4 Argon**, its first flagship frontier model in more than seven months.

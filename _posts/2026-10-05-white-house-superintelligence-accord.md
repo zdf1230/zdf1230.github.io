@@ -3,7 +3,7 @@ layout: post
 title: "The White House Accord on Super Intelligence"
 tags: [AI, policy]
 categories: ai
-date: 2026-10-05 12:00:00 -0700
+date: 2026-10-05 00:20:00 -0700
 ---
 
 On September 29, President Trump hosted some twenty tech executives for a White House lunch and signed the one-page **"White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities."**

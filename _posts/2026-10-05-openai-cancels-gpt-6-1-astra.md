@@ -3,7 +3,7 @@ layout: post
 title: "OpenAI Cancels GPT-6.1 Astra Over Safety Test Failures"
 tags: [AI, OpenAI, safety]
 categories: ai
-date: 2026-10-05 12:00:00 -0700
+date: 2026-10-05 00:20:00 -0700
 ---
 
 On September 28, the *Wall Street Journal* reported — and Reuters and OpenAI confirmed the same day — that OpenAI is scrapping the planned October release of **GPT-6.1 Astra**, which would have been its most autonomous model yet: designed to complete complex tasks end-to-end without human assistance, and slated for both ChatGPT and Codex.
