@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Zhao Dongfang (zdf), based in Seattle.
+Hi, I'm Dongfang, based in Seattle.
 
 This blog is where I keep my tech notes, projects, and occasional thoughts. Most early posts were written back in 2014–2016 and are kept as an archive; new content will be added from time to time.
 
