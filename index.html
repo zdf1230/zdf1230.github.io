@@ -1,27 +1,21 @@
 ---
 layout: default
-no_duoshuo: true
 ---
+<section class="intro">
+  <p>Hi, I'm zdf. This is where I keep my tech notes, projects, and random thoughts.</p>
+</section>
 
-<div class="home">
-
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-
-  {% include pagination.html %}
-</div>
+<section class="post-list">
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in posts_by_year %}
+    <h2 class="year">{{ year.name }}</h2>
+    <ul>
+      {% for post in year.items %}
+        <li>
+          <span class="date">{{ post.date | date: "%m-%d" }}</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>

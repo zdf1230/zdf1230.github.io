@@ -1,67 +1,65 @@
 ---
 layout: post
 title: "Machine Learning Summary Section Two"
-author: Zdf
-tag: [Machine Learning]
-category: Machine Learning
+tags: [Machine Learning]
+categories: Machine Learning
 date: 2016-03-19 22:01:22 +0800
-comments: true
 ---
 
-[Last Section](http://zdf615328619.github.io/machine%20learning/2016/01/13/Machine-Learning-Summary-Section-One/)
+[Last Section](/machine%20learning/2016/01/13/Machine-Learning-Summary-Section-One/)
 
-### 多变量线性回归 _Linear Regression with Multiple Variable_
+### Linear Regression with Multiple Variables
 
 * $h_{\theta}(x)=\theta_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \theta_{n}x_{n}$
 * $x_{0} = 1$ , $h_{\theta}(x)=\theta_{0}x_{0} + \theta_{1}x_{1} + \theta_{2}x_{2} + ... + \theta_{n}x_{n}$
 * $h_{\theta}(x)=\theta^{T}X$
 
-### 特征缩放 _Feature scaling_
+### Feature Scaling
 
 * make sure features are on a similar scale
 * get every feature into approximately a $-1\leq x_{i} \leq +1$ range
-* mean normalization 均值归一化 $ x_{i} = \frac{x_{i} - \mu_{i}}{s_{i}} $ . ($ \mu_{i} $ is avg and $ s_{i} $ can be $ max - min $ or standard deviation )
+* mean normalization $ x_{i} = \frac{x_{i} - \mu_{i}}{s_{i}} $ . ($ \mu_{i} $ is avg and $ s_{i} $ can be $ max - min $ or standard deviation )
 
-### 学习率 _Learning rate_
+### Learning Rate
 
 * making sure gradient descent is working correctly. $ J(\theta) $ should decrease after every iteration.
-* $ J(\theta)-iteration $ 曲线上升或波动，需要降低学习率。学习率要适中，过小会导致梯度下降的太慢
+* $ J(\theta)-iteration $ curve goes up or oscillates, lower the learning rate. The learning rate should be moderate — too small makes gradient descent painfully slow
 * To try $ \alpha $, try ... 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3 ...
 
-### 特征与多项式回归 _Features and Polynomial Regression_
+### Features and Polynomial Regression
 
-线性回归并不能拟合所有数据，我们要使用其他模型来进行拟合
+Linear regression can't fit all data; we need other models
 
-### 正规方程 _Normal Equation_
+### Normal Equation
 
-* 对于某些线性回归问题，我们可以使用正规方程来解决。复杂度为 $O(n^{3})$
-* 训练集特征向量$X$(其中$x_{0} = 1$), 训练集结果为向量y
-* 利用正规方程解出向量$$ \theta = (X^{T}X)^{-1}X^{T}y $$
-* $X^{T}X$ 是为了构成方阵，只有方程才有逆。$X\theta = y$
+* For some linear regression problems, we can use the normal equation. Complexity: $O(n^{3})$
+* Training-set feature matrix $X$ (with $x_{0} = 1$); training results as vector y
+* Solve for the vector with the normal equation:$$ \theta = (X^{T}X)^{-1}X^{T}y $$
+* $X^{T}X$ forms a square matrix, which is what makes it invertible.$X\theta = y$
 
 ### Octave or Matlab
 
-* 基本操作
-* 移动数据
-* 计算数据
-* 绘图数据
-* 控制语句与函数
-* 向量化
+* Basic operations
+* Moving data
+* Computing on data
+* Plotting data
+* Control statements and functions
+* Vectorization
 
-### 逻辑回归 _Logical Regression_
+### Logistic Regression
 
-* 逻辑回归模型的假设 $h_{\theta}(x) = g(\theta_{T}X)$
-* Sigmod Function $ g(z) = \frac{1}{1 + e^{-z}} $
-* 逻辑回归的代价函数 $$J(\theta) = \frac{1}{m} \sum_{i = 1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)}) $$
-* 化简后 $$ Cost(h_\theta(x),y) = -y \times log(h_\theta(x)) - (1-y) \times log(1 - h_\theta(x))$$
+* Hypothesis of the logistic regression model: $h_{\theta}(x) = g(\theta_{T}X)$
+* Sigmoid function: $ g(z) = \frac{1}{1 + e^{-z}} $
+* Cost function of logistic regression: $$J(\theta) = \frac{1}{m} \sum_{i = 1}^{m}Cost(h_\theta(x^{(i)}),y^{(i)}) $$
+* Simplified: $$ Cost(h_\theta(x),y) = -y \times log(h_\theta(x)) - (1-y) \times log(1 - h_\theta(x))$$
 * fminunc
-* one-vs-all 取 $max(h_\theta(x))$ 为分类结果
+* one-vs-all: take $max(h_\theta(x))$ as the classification result
 
-### 正则化 _Regularization_
-* 过拟合 Overfitting 高方差
-* 过拟合解决方案
-	* 减少特征变量个数(Manully select which features to keep or use model select alogrithm)
-	* 正则化
-* 正则化在线性回归和逻辑回归中的应用 \lamda
+### Regularization
+* Overfitting — high variance
+* Solutions to overfitting
+	* Reduce the number of features (manually select which features to keep, or use a model selection algorithm)
+	* Regularization
+* Applying regularization to linear and logistic regression: $\lambda$
 
-[Next Section](http://zdf615328619.github.io/machine%20learning/2016/03/23/Machine-Learning-Summary-Section-Three/)
+[Next Section](/machine%20learning/2016/03/23/Machine-Learning-Summary-Section-Three/)

@@ -1,11 +1,13 @@
-# Zdf's Blog
+# zdf's blog
 
-[click here to see detail.](http://zdf615328619.github.io/)
+Personal blog of Zhao Dongfang (zdf1230), built with Jekyll and hosted on GitHub Pages.
 
-* [Archive](http://zdf615328619.github.io/archive/)
+- Site: https://zdf1230.github.io
+- Theme: minimal white reading theme (custom, in `assets/css/style.css`)
 
-* [Categories](http://zdf615328619.github.io/categories/)
+## Local preview
 
-* [Tags](http://zdf615328619.github.io/tags/)
-
-This Blog uses duoshuo and swiftype.
+```
+gem install jekyll
+jekyll serve
+```

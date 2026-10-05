@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Vocabulary Builder"
-author: Zdf
-tag: [English]
-category: English
+tags: [English]
+categories: English
 date: 2016-07-09 00:00:00 +0800
-comments: true
 ---
 
 ## Lesson One

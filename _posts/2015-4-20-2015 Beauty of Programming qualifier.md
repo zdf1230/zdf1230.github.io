@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "2015 Beauty of Programming qualifier"
-author: Zdf
-tag: BoP
-category: BoP
+tags: BoP
+categories: BoP
 date: 2015-04-20 12:25:47 -0700
-comments: true
 ---
 
-#### 2015编程之美资格赛
-每次这种大型比赛都必跪啊= =今年又来参加了，由于好久没写过代码了，就把资格赛的三个题都写了。
+#### 2015 Beauty of Programming Qualifier
+I always bomb these big contests = =. Joined again this year; I hadn't written code in a while, so I just solved all three qualifier problems.
 
 	
 
@@ -63,7 +61,7 @@ int main()
 
 {% endhighlight %}
 
-第一题就是算出某一天到之前有多少个2.29,然后相减就行。
+Problem 1: count how many Feb 29s have occurred up to a given date, then subtract.
 
 {% highlight cpp %}
 
@@ -105,7 +103,7 @@ int main()
 
 {% endhighlight %}
 
-第二题就是个DP= =
+Problem 2 is just DP = =.
 
 {% highlight cpp %}
 
@@ -170,8 +168,8 @@ int main()
 
 {% endhighlight %}
 
-第三题还比较有意思。很多人用三分来写，而我没有。
+Problem 3 is more interesting. Many people solved it with ternary search; I didn't.
 
-因为x轴y轴相对独立，我们先考虑一个象限。
+Since the x and y axes are relatively independent, consider one quadrant first.
 
-对于一个象限，我们可以列出式子，然后打开，求导，求最值，可以发现，最优值是坐标的平均值，因为可能不整除，我们假定最优值可以为`x0`或`x0 + 1`。y轴同理。所以对于欧几里得距离的最优值就在这四个点中。然后我们还可以发现，如果坐标移动1，欧几里得距离的影响会比曼哈顿距离的影响要大，所以最优值还在这四个点中，分别算出，取最优即可。
+For one quadrant, write out the formula, expand it, take the derivative, and find the minimum — the optimum turns out to be the mean of the coordinates. Since it may not divide evenly, assume the optimum is `x0` or `x0 + 1`. Same for the y axis. So the optimum for Euclidean distance is among these four points. Also note that moving a coordinate by 1 affects Euclidean distance more than Manhattan distance, so the optimum stays within these four points — evaluate each and take the best.

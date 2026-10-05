@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html>
-{% include head.html %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
 <body>
-  <div class="{% if site.animated %}animated fade-in-down{% endif %}">
-	  <div class="site-wrap">
-		{% include header.html %}
-
-		<div class="post p2 p-responsive wrap" role="main">
-		  <div class="measure">
-			{{ content }}
-			
-			{% if page.no_duoshuo %}
-			<!-- we don't need duoshuo -->
-			{% else %}	
-				{% include duoshuo.html %}
-			{%endif%}
-			
-		  </div>
-		</div>
-	  </div>
-	  {% include footer.html %}
-  </div>
-  
-  {% include uptotop.html %}
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="site-nav">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+        <a class="nav-link" href="{{ '/tags/' | relative_url }}">Tags</a>
+        <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }} ·
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a> ·
+        <a href="mailto:{{ site.email }}">Email</a>
+      </p>
+    </div>
+  </footer>
 </body>
-
-	
-
-
 </html>

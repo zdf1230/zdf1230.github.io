@@ -1,33 +1,31 @@
 ---
 layout: post
 title: "Machine Learning Summary Section One"
-author: Zdf
-tag: [Machine Learning]
-category: Machine Learning
+tags: [Machine Learning]
+categories: Machine Learning
 date: 2016-01-13 16:34:10 -0700
-comments: true
 ---
 
-### 机器学习的定义
-由Tom Mitchell提出，来自卡内基梅隆大学，Tom定义的机器学习是，一个好的学习问题定义如下，他说，一个程序被认为能从经验E中学习，解决任务T，达到性能度量值P，当且仅当，有了经验E后，经过P评判，程序在处理T时的性能有所提升。
+### Definition of Machine Learning
+Proposed by Tom Mitchell of Carnegie Mellon University. His definition: a program is said to learn from experience E with respect to some task T and performance measure P, if its performance on T, as measured by P, improves with experience E.
 
-### 监督学习 _Supervised Learning_
-* 回归 _Regression_ 
+### Supervised Learning
+* Regression 
     * predict continuous valued output
-* 分类 _Classification_
+* Classification
 	* discrete valued output
 
-### 无监督学习 _Unsupervised Learning_
-* 聚类
-* 鸡尾酒宴会问题
+### Unsupervised Learning
+* Clustering
+* The cocktail party problem
 	* $$[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');$$
 	
-### 单变量线性回归 _Linear Regression with One Variable_
+### Linear Regression with One Variable
 
-* 训练集 _Training Set_
-* 假设 _hypothesis_
-* 代价函数 _Cost Funciton_
-* 梯度下降 _Gradient Descent_
+* Training Set
+* Hypothesis
+* Cost Function
+* Gradient Descent
 
 Example:
 
@@ -36,9 +34,9 @@ Hypothesis : $$h_{\theta}(x)={\theta}_1 + {\theta}_2 \times x$$
 Cost Funciton : $$J(\theta_1,\theta_2)=\frac{1}{2m}\sum_{i = 1}^{m}(h_\theta(x^{(i)})-y^{(i)})^2$$
 
 
-### 批量梯度下降算法 _batch gradient descent algorithm_
+### Batch Gradient Descent Algorithm
 
-* 算法
+* The algorithm
     
     For the upper example, it has
 
@@ -48,9 +46,9 @@ Cost Funciton : $$J(\theta_1,\theta_2)=\frac{1}{2m}\sum_{i = 1}^{m}(h_\theta(x^{
 
     }
     
-    $\alpha$ 是学习率 _learning rate_
+    $\alpha$ is the learning rate
 
-* 局部最优
-    * $\theta$ 最终会收敛，偏导数为 $0$
+* Local optimum
+    * $\theta$ will eventually converge, with partial derivatives equal to $0$
 	
-[Next Section](http://zdf615328619.github.io/machine%20learning/2016/03/19/Machine-Learning-Summary-Section-Two/)
+[Next Section](/machine%20learning/2016/03/19/Machine-Learning-Summary-Section-Two/)
