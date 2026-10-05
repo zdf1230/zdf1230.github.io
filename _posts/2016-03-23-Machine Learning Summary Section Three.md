@@ -6,5 +6,5 @@ categories: Machine Learning
 date: 2016-03-23 23:50:56 +0800
 ---
 
-[Last Section](/machine%20learning/2016/03/19/Machine-Learning-Summary-Section-Two/)
+[Last Section](/machine/learning/2016/03/19/Machine-Learning-Summary-Section-Two/)
 

@@ -51,4 +51,4 @@ Cost Funciton : $$J(\theta_1,\theta_2)=\frac{1}{2m}\sum_{i = 1}^{m}(h_\theta(x^{
 * Local optimum
     * $\theta$ will eventually converge, with partial derivatives equal to $0$
 	
-[Next Section](/machine%20learning/2016/03/19/Machine-Learning-Summary-Section-Two/)
+[Next Section](/machine/learning/2016/03/19/Machine-Learning-Summary-Section-Two/)

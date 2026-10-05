@@ -6,7 +6,7 @@ categories: Machine Learning
 date: 2016-03-19 22:01:22 +0800
 ---
 
-[Last Section](/machine%20learning/2016/01/13/Machine-Learning-Summary-Section-One/)
+[Last Section](/machine/learning/2016/01/13/Machine-Learning-Summary-Section-One/)
 
 ### Linear Regression with Multiple Variables
 
@@ -62,4 +62,4 @@ Linear regression can't fit all data; we need other models
 	* Regularization
 * Applying regularization to linear and logistic regression: $\lambda$
 
-[Next Section](/machine%20learning/2016/03/23/Machine-Learning-Summary-Section-Three/)
+[Next Section](/machine/learning/2016/03/23/Machine-Learning-Summary-Section-Three/)
